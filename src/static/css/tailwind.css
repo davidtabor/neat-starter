@@ -11,9 +11,20 @@ h1 {
 h3 {
   @apply text-2xl font-bold mb-3;
 }
+body {
+    background-color:#F4C19D;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    body {
+    	background-color: #8c7284;
+    	color: #fff !important;
+    }
+  }
+}
 
 .calendly-overlay iframe {
-    height: 102% !important;
+    height: 110% !important;
 }
 /* Syntax Highlighting*/
 
