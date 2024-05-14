@@ -6,6 +6,7 @@
 :root {
   --main-bg-color: #c9cfcd;
   --brand-indigo: #3b6999;
+  --clip-shape: inset(0 round 10vh 10vh 2vh 2vh);
 }
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
@@ -27,6 +28,26 @@ body {
 }
 .indigoTextColor {
     color: var(--brand-indigo);
+}
+
+.journal {
+    width:100%;
+    max-width: 400px;
+    filter: contrast(0.6);
+    position: relative;
+    z-index: 5;
+    .overlay {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 2px 1px 5px rgba(255,255,255,0.7);
+        z-index: 6;
+    }
+    
+}
+img.clip {
+    clip-path: var(--clip-shape);
 }
 
 .calendly-overlay iframe {
