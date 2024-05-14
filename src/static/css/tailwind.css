@@ -12,7 +12,7 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 body {
-    background-color:#F4C19D;
+    background-color:#c9cfcd;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -21,6 +21,9 @@ body {
     	color: #fff !important;
     }
   }
+}
+#lulworthTextColor {
+    color: #a0b6c8;
 }
 
 .calendly-overlay iframe {
