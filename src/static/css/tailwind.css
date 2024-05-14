@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
-
+:root {
+  --main-bg-color: #c9cfcd;
+  --brand-indigo: #a0b6c8;
+}
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
 }
@@ -12,18 +15,18 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 body {
-    background-color:#c9cfcd;
+    background-color: var(--main-bg-color);
 }
 @media (prefers-color-scheme: dark) {
   :root {
     body {
-    	background-color: #8c7284;
-    	color: #fff !important;
+    	/* background-color: #8c7284;
+    	color: #fff !important; */
     }
   }
 }
-.lulworthTextColor {
-    color: #a0b6c8;
+.indigoTextColor {
+    color: var(--brand-indigo);
 }
 
 .calendly-overlay iframe {
