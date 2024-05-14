@@ -5,7 +5,7 @@
 /*Your Custom CSS Goes here*/
 :root {
   --main-bg-color: #c9cfcd;
-  --brand-indigo: #a0b6c8;
+  --brand-indigo: #3b6999;
 }
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
