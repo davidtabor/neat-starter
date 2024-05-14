@@ -1,6 +1,6 @@
 ---
 items:
   - text: Book Now
-    url: "#footer"
+    url: "/book"
   - text: Blog
     url: "/blog"
